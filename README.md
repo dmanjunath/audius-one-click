@@ -9,11 +9,10 @@ Setup an Audius nodes on DigitalOcean using Pulumi to provision and manage infra
 #### Instructions
 
 ```sh
-# clone the repository
-git clone <url>
+cd audius-one-click/
 
 # create a stack
-pulumi stack init dev
+pulumi stack init discovery-node-1
 
 # set the required environment variables
 export DIGITALOCEAN_TOKEN=...
