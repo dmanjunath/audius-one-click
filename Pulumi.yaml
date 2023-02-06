@@ -1,0 +1,3 @@
+name: audius
+runtime: nodejs
+description: Setup an Audius nodes on DigitalOcean using Pulumi to provision and manage infrastructure
